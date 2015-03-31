@@ -1,2 +1,2 @@
 # aui
-Experimenting with AlloyUI
+Experimenting with AlloyUI framework

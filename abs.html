@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<h1>Absolute URL</h1>
+
+
+<script>
+var getAbsoluteUrl = (function() {
+	var a;
+
+	return function(url) {
+		if(!a) a = document.createElement('a');
+		a.href = url;
+		console.log(a.href);
+		return a.href;
+	};
+})();
+</script>
+</body>
+</html>
